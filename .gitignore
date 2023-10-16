@@ -1,0 +1,6 @@
+node_modules
+.env
+gry-mkv
+.sass-cache
+config
+dist

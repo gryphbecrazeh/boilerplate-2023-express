@@ -1,0 +1,52 @@
+{
+  "name": "boilerplate-2023",
+  "version": "1.0.0",
+  "description": "This is my boilerplate project to be copied and reused with other projects",
+  "main": "src/main/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=development && nodemon index.js",
+    "tailwind": "npx tailwindcss -i ./public/css/main.css -o ./dist/output.css --watch",
+    "sass": "sass --watch src/assets/scss/:public/css/",
+    "webpack": "webpack --mode development --watch --progress"
+  },
+  "dependencies": {
+    "@hotwired/stimulus": "^3.2.1",
+    "@hotwired/stimulus-webpack-helpers": "^1.0.1",
+    "body-parser": "^1.20.2",
+    "css-loader": "^6.8.1",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "ejs-loader": "^0.5.0",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "glob": "^10.3.4",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.3",
+    "lodash": "^4.17.21",
+    "mini-css-extract-plugin": "^2.7.6",
+    "mongoose": "^7.4.1",
+    "nodemon": "^3.0.1",
+    "path": "^0.12.7",
+    "pg": "^8.11.3",
+    "postcss-loader": "^7.3.3",
+    "sequelize": "^6.32.1",
+    "sequelize-cli": "^6.6.1",
+    "style-loader": "^3.3.3",
+    "typescript": "^5.1.6",
+    "url-pattern": "^1.0.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-hot-middleware": "^2.25.4"
+  },
+  "devDependencies": {
+    "nodemon-webpack-plugin": "^4.8.1",
+    "tailwindcss": "^3.3.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-middleware": "^6.1.1",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "author": "Christopher (Gryph) Cordine",
+  "license": "ISC"
+}

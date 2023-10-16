@@ -1,0 +1,25 @@
+<!-- index.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        <%= title %>
+    </title>
+    <link href="<%= path %>" rel="stylesheet">
+    <script src="<%= scriptPath %>"></script>
+
+</head>
+
+<body class="bg-black" data-controller="test">
+    <div class="w-full flex items-center justify-center flex-col gap-4">
+        <h1>
+            <%= title %>
+        </h1>
+        <p>
+            <%= message %>
+        </p>
+    </div>
+</body>
+</html>
